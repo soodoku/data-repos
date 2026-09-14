@@ -1,6 +1,6 @@
 # Data Repositories
 
-Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [public-salaries](https://github.com/public-salaries), and other organizations: 50 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
+Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [public-salaries](https://github.com/public-salaries), and other organizations: 49 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
 
 The same list is in [data_repos.csv](data_repos.csv).
 
@@ -58,7 +58,6 @@ The same list is in [data_repos.csv](data_repos.csv).
 | Repository | Topic | Geography | Years | Data |
 |---|---|---|---|---|
 | [get-cricket-data](https://github.com/outside-edge/get-cricket-data) | cricket matches | World |  | in repo |
-| [icc-ratings](https://github.com/outside-edge/icc-ratings) | ICC ratings | World |  | — |
 
 ## public-salaries
 
