@@ -1,6 +1,6 @@
 # Data Repositories
 
-Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [public-salaries](https://github.com/public-salaries), and other organizations: 49 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
+Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [public-salaries](https://github.com/public-salaries), and other organizations: 50 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
 
 The same list is in [data_repos.csv](data_repos.csv).
 
@@ -44,6 +44,7 @@ The same list is in [data_repos.csv](data_repos.csv).
 |---|---|---|---|---|
 | [digital-tv-coverage-in-uk](https://github.com/notnews/digital-tv-coverage-in-uk) | digital TV coverage | UK |  | [Dataverse NRY5OP](https://doi.org/10.7910/DVN/NRY5OP) |
 | [archive_news_cc](https://github.com/notnews/archive_news_cc) | TV closed captions | US | 2009-2023 | [Dataverse OAJJHI](https://doi.org/10.7910/DVN/OAJJHI) |
+| [top10](https://github.com/notnews/top10) | news top-10 lists | US | still collecting | [Dataverse OTJMYQ](https://doi.org/10.7910/DVN/OTJMYQ), in repo |
 | [stanford_tv_news](https://github.com/notnews/stanford_tv_news) | TV news | US |  | in repo |
 | [vandy_tv_news_abstracts](https://github.com/notnews/vandy_tv_news_abstracts) | TV news abstracts | US |  | [Dataverse BP2JXU](https://doi.org/10.7910/DVN/BP2JXU) |
 | [tv_schedules](https://github.com/notnews/tv_schedules) | TV schedules | US |  | in repo |
