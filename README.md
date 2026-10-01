@@ -4,6 +4,18 @@ Point-in-time data collections across the [in-rolls](https://github.com/in-rolls
 
 The same list is in [data_repos.csv](data_repos.csv).
 
+## Maintenance policy
+
+These are data collections, not continuously maintained software packages.
+
+- Preserve sources, collection dates, field definitions, provenance and reproducible parsing commands.
+- Run affected parser tests when code changes. When data change, check the relevant schema, keys, missing values and source/output hashes. Review documentation edits directly.
+- Keep full-dataset validation, reprocessing, scraping and publication explicit. Do not rebuild data to validate an unrelated edit or repeat a successful check without a relevant change or failure.
+- Do not add blanket CI, scheduled dependency checks, Python-version matrices, Docker/VM checks, pre-commit, Preen or package-release scaffolding to these collections.
+- Use existing local environments and commands. A specific collection or publication automation needs its own concrete purpose; it is not a requirement imposed on every repository.
+
+On October 1, 2026, all 49 repositories were reviewed: 18 had package-style CI removed through merged PRs; 31 already had no package CI. [Review receipts](maintenance_review.csv) record the inspected commit and each PR and merge. The changes were limited to configuration and documentation. Configuration parsing, Make dry-runs and offline lockfile checks passed where applicable; retained dependency versions and runtime requirements were unchanged. Parser tests and data processing were not run for this configuration-only pass.
+
 ## in-rolls
 
 | Repository | Topic | Geography | Years | Data |
@@ -25,7 +37,7 @@ The same list is in [data_repos.csv](data_repos.csv).
 | [local_elections_rajasthan](https://github.com/in-rolls/local_elections_rajasthan) | local elections | Rajasthan | 2005-2022 | [Dataverse 6YPB5C](https://doi.org/10.7910/DVN/6YPB5C), in repo |
 | [local_elections_up](https://github.com/in-rolls/local_elections_up) | local elections | Uttar Pradesh | 2005-2021 | in repo |
 | [local_elections_uttarakhand](https://github.com/in-rolls/local_elections_uttarakhand) | local elections | Uttarakhand |  | in repo |
-| [local_reservations](https://github.com/in-rolls/local_reservations) | local elections | India |  | in repo |
+| [local_elections](https://github.com/in-rolls/local_elections) | local elections | India |  | in repo |
 | [mnrega](https://github.com/in-rolls/mnrega) | MNREGA reports | India |  | [Dataverse ZHF9WC](https://doi.org/10.7910/DVN/ZHF9WC) |
 | [mnrega_social](https://github.com/in-rolls/mnrega_social) | MNREGA social audits | India |  | [Dataverse KAIZ1B](https://doi.org/10.7910/DVN/KAIZ1B), in repo |
 | [mplads](https://github.com/in-rolls/mplads) | MPLADS | India |  | in repo |
