@@ -1,8 +1,12 @@
 # Data Repositories
 
-Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [public-salaries](https://github.com/public-salaries), and other organizations: 49 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
+Point-in-time data collections across the [in-rolls](https://github.com/in-rolls), [notnews](https://github.com/notnews), [soodoku](https://github.com/soodoku), and other accounts: 49 repositories. Each one records how a dataset was collected and where the data live. They are not maintained packages: no releases, no Dependabot, not archived.
 
 The same list is in [data_repos.csv](data_repos.csv).
+
+## Naming
+
+Use a shared topic prefix and a dataset, geography, or purpose suffix, separated by hyphens. The public salary repositories use `salaries-data` for the combined collection, `salaries-in`, `salaries-ny`, and `salaries-oh` for state collections, and `salaries-analyses` for analysis. State suffixes use lowercase USPS codes. This follows the `dp-data`, `dp-learning`, and `dp-distortions` pattern.
 
 ## Maintenance policy
 
@@ -71,15 +75,6 @@ On October 1, 2026, all 49 repositories were reviewed: 18 had package-style CI r
 |---|---|---|---|---|
 | [get-cricket-data](https://github.com/outside-edge/get-cricket-data) | cricket matches | World |  | in repo |
 
-## public-salaries
-
-| Repository | Topic | Geography | Years | Data |
-|---|---|---|---|---|
-| [in_salaries](https://github.com/public-salaries/in_salaries) | public salaries | Indiana |  | — |
-| [ny_salaries](https://github.com/public-salaries/ny_salaries) | public salaries | New York |  | — |
-| [oh_salaries](https://github.com/public-salaries/oh_salaries) | public salaries | Ohio |  | in repo |
-| [public_salaries](https://github.com/public-salaries/public_salaries) | public salaries | US |  | [Dataverse KA3TS8](https://doi.org/10.7910/DVN/KA3TS8), in repo |
-
 ## recite
 
 | Repository | Topic | Geography | Years | Data |
@@ -93,6 +88,10 @@ On October 1, 2026, all 49 repositories were reviewed: 18 had package-style CI r
 | [biocong](https://github.com/soodoku/biocong) | congress bios | US | 105th-115th | [Dataverse NZPPJM](https://doi.org/10.7910/DVN/NZPPJM), in repo |
 | [nga](https://github.com/soodoku/nga) | governors | US | 2012 | in repo |
 | [military-experience](https://github.com/soodoku/military-experience) | leaders military service | US/UK |  | in repo |
+| [salaries-in](https://github.com/soodoku/salaries-in) | public salaries | Indiana |  | — |
+| [salaries-ny](https://github.com/soodoku/salaries-ny) | public salaries | New York |  | — |
+| [salaries-oh](https://github.com/soodoku/salaries-oh) | public salaries | Ohio |  | in repo |
+| [salaries-data](https://github.com/soodoku/salaries-data) | public salaries | US |  | [Dataverse KA3TS8](https://doi.org/10.7910/DVN/KA3TS8), in repo |
 
 ## themains
 
