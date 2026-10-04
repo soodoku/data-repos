@@ -6,7 +6,7 @@ The same list is in [data_repos.csv](data_repos.csv).
 
 ## Naming
 
-Use a shared topic prefix and a dataset, geography, or purpose suffix, separated by hyphens. The public salary repositories use `public-salaries-data` for the combined collection, `public-salaries-in`, `public-salaries-ny`, and `public-salaries-oh` for state collections, and `public-salaries-analyses` for analysis. State suffixes use lowercase USPS codes. This follows the `dp-data`, `dp-learning`, and `dp-distortions` pattern.
+Use a shared topic prefix and a dataset, geography, or purpose suffix, separated by hyphens. The public salary repositories use `public-salaries-data` for the combined collection, `public-salaries-in`, `public-salaries-ny`, and `public-salaries-oh` for state collections, and `public-salaries-research` for analysis. State suffixes use lowercase USPS codes. This follows the `dp-data`, `dp-learning`, and `dp-distortions` pattern.
 
 ## Maintenance policy
 
